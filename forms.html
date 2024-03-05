@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+
+        <h2>HTML FORM SAMPLE</h2>
+
+        <form action="/submit"method="post">
+        <label for="username">name:</label><br>
+        <input type="text"id="username" name="username"Required><br><br>
+        <label for="fname">First Name:</label><br>
+        <input type="text"id="fname"="fname"required><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text"id="lname"="lname"required><br><br>
+        <input type="submit"value="Submit"required>
+        <label for="password">Password:</label><br>
+        <input type="password"id="password"name="password"Required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email"id="email"name="email"Required placeholder="example@gmail.com"><br><br>
+        <label for="pdfFile">Select a PDF file:</label>
+        <input type="file"id="pdfFile"name="pdfFile"accept=".pdf"required><br><br>
+        <input type="submit"value="Upload">
+        <label for="age">Age:</label><br>
+        <input type="number"id="age"name="age"Required><br><br>
+        <label for="encryptedFile">Select an encrypted file:</label>
+        <input type="file"id="encryptedFile"name="encryptedFile"required><br><br>
+        <input type="submit"value="Upload">
+        <label for="gender">Gender:</label><br>
+        <input type="radio"id="male"name="gender"value="male">
+        <label for="male">Male</label>
+        <input type="radio"id="female"name="gender"value="female">
+        <label for="female">Female</label>
+        <label for="car">Select a car:</label>
+        <select id="car"name="car">
+            <option value="blank"></option>
+            <option value="Toyota">Toyota</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Audi">Audi</option>
+        </select><br><br>
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio"name="bio"rows="4 cols"="50"></textarea><br><br>
+
+        <input type="submit"value="Submit">
+        <h2>Upload Image</h2>
+        <form action="#"method="post"enctype="multipart/form-data">
+            <label for="image">Select Image:</label><br><br>
+            <input type="file"id="image"name="image"accept="image/*"><br><br>
+            <input type="submit"value="Upload Image">
+        </form>
+        
+        <h2>Upload Video</h2>
+        <form action="#"method="post"enctype="multipart/form-data">
+            <label for="video">Select a Video:</label><br><br>
+            <input type="file"id="video"name="video"accept="video/*"><br><br>
+            <input type="submit"value="Upload Video">
+        </form>
+    </body>
+</html>
