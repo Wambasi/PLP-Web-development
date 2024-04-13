@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+.header {
+    color: #fff;
+    margin: 0;
+}
+
+/* Introduction section styles */
+.intro {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.intro h2 {
+    margin-top: 0;
+}
+
+/* Skills section styles */
+.skills {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Adjust header padding */
+    header {
+        padding: 10px;
+    }
+
+    /* Adjust font size for headers */
+    .header {
+        font-size: 24px;
+    }
+
+    /* Reduce padding in intro, skills, and contact sections */
+    .intro,
+    .skills,
+    .contact {
+        padding: 15px;
+    }
+
+    /* Adjust font size for introduction */
+    .intro p {
+        font-size: 16px;
+    }
+
+    /* Adjust font size for skills */
+    .skills li {
+        font-size: 14px;
+    }
+
+    /* Adjust font size for contact information */
+    .contact li {
+        font-size: 14px;
+    }
+}
